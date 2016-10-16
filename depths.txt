@@ -1,0 +1,413 @@
+Easting (m)	Northing (m)	Ground Surface (relative to TBM)	Bottom of Gravel Layer Depth (below ground surface)	Height (m)  (relative to TBM)	Height (m) AOD	Point	Feature							
+415999.1	92811.7	0.32				X	Line down concrete path to R. Avon north of donkey shed						1.105	1.423
+415996.4	92812.5	0.28				0							1.14	1.458
+415997.3	92813.0	0.25				1							1.174	1.492
+415998.1	92813.5	0.25				2							1.169	1.487
+415999.1	92814.0	0.29				3							1.131	1.449
+415999.9	92814.5	0.29				4							1.132	1.45
+416000.8	92815.0	0.30				5							1.122	1.44
+416001.6	92815.5	0.30				6							1.124	1.442
+416002.5	92816.0	0.29				7							1.137	1.455
+416003.3	92816.5	0.27				8							1.154	1.472
+416004.3	92816.9	0.28				9							1.14	1.458
+416005.1	92817.5	0.26				10							1.159	1.477
+416005.9	92818.0	0.27				11							1.157	1.475
+416006.8	92818.5	0.23				12							1.197	1.515
+416007.7	92819.0	0.21				13							1.218	1.536
+416008.6	92819.4	0.18				14							1.241	1.559
+416009.5	92819.9	0.09				15							1.337	1.655
+416010.4	92820.3	-0.09				16							1.513	1.831
+416011.3	92820.7	-1.01				Creek at bed							2.428	2.746
+415996.7	92811.0	0.65		-1.28			Pit 21						-1.285	-0.967
+415996.4	92812.2	0.68		-1.29			Pit 22						-1.282	-0.964
+415996.7	92804.3	0.32					Pit 23							
+415993.2	92816.4	0.33		-1.142			Pit 30							
+415994.6	92814.7	0.32					Pit 29							
+415995.8	92813.7	0.25					Pit 26							
+415999.9	92815.2	0.32					Pit 28							
+415990.1	92815.0	-0.64					Millstream bed adjacent Pit 30							
+416010.7	92805.8	0.26					Pit 34							
+416004.2	92802.3	0.40					Pit 35							
+415998.8	92811.9	0.32					Donkey Shed TBM							
+415997.4	92810.7	0.43					Corner donkey shed							
+415995.2	92809.4	0.45					2.55m off corner							
+415994.8	92809.3	0.57					2.97m off corner							
+415994.0	92808.8	0.09					3.87m off corner							
+415993.1	92808.5	-0.08					4.81m off corner							
+415992.6	92808.2	-0.17					5.37m off corner							
+415992.1	92807.8	-0.73					6.05m off corner							
+415988.0	92837.9	-0.03					Pit 48							
+415990.1	92839.6	-0.09					Pit 49							
+415996.9	92833.8	-0.07					"Pit47,D"							
+415997.9	92833.5	-0.09					"Pit47,C"							
+415998.3	92834.3	-0.14					"Pit47,B"							
+415997.4	92834.7	-0.09					"Pit47,A"							
+415992.7	92834.1	-0.07					Pit 46							
+415995.3	92832.7	-0.04					Pit 45							
+415993.1	92828.3	0.17					Pit 42/43							
+416021.0	92808.0	0.19					Pit 38							
+416019.0	92807.4	0.20					Pit 39							
+416024.0	92802.6	0.29					Pit 40							
+416020.7	92799.8	0.28					Pit 41							
+415998.4	92806.5	0.70					Pit 27							
+415996.9	92808.8	0.70					Pit 24 (1)							
+415997.6	92807.7	0.62					Pit 24 (2)							
+415997.7	92809.3	0.64					Pit 24 (3)							
+415998.5	92808.1	0.67					Pit 24 (4)							
+415996.3	92812.2	0.28					Pit 25 (1)							
+415994.7	92814.0	0.31					Pit 25 (2)							
+416004.1	92814.4	0.37					Line A0							
+416003.2	92816.2	0.30					Line A2							
+416002.2	92818.0	0.34					Line A4							
+416001.2	92819.7	0.25					Line A6							
+416000.2	92821.5	0.28					Line A8							
+415999.3	92823.2	0.24					Line A10							
+415998.3	92824.9	0.22					Line A12							
+415997.3	92826.7	0.18					Line A14							
+415996.3	92828.4	0.15					Line A16							
+415995.3	92830.2	0.07					Line A18							
+415994.3	92830.2	-0.10					Line A20							
+416001.0	92812.7	0.47					Line B0							
+416000.0	92814.4	0.31					Line B2							
+415999.0	92816.2	0.32					Line B4							
+415998.0	92817.9	0.32					Line B6							
+415997.0	92819.7	0.31					Line B8							
+415995.9	92821.4	0.28					Line B10							
+415995.0	92823.1	0.23					Line B12							
+415994.0	92824.9	0.21					Line B14							
+415993.0	92826.6	0.19					Line B16							
+415992.0	92828.3	0.16					Line B18							
+415991.0	92830.1	0.11					Line B20							
+416026.2	92817.3	0.00					TBM in Orchard							
+416010.0	92813.6	0.15					0m on path in S. garden							
+416010.5	92812.7	0.21					1m along path							
+416010.9	92811.8	0.20					2m along path							
+416011.4	92810.9	0.16					3m along path							
+416011.9	92810.1	0.15					4m along path							
+416012.4	92809.1	0.14					5m along path							
+416012.8	92808.3	0.13					6m along path							
+416013.3	92807.5	0.15					7m along path							
+416013.8	92806.5	0.16					8m along path							
+416014.3	92805.5	0.17					9m along path							
+416014.8	92804.7	0.20					10m along path							
+416015.3	92803.8	0.20					11m along path							
+416015.7	92803.0	0.20					12m along path							
+416016.2	92802.1	0.21					13m along path							
+416016.7	92801.3	0.21					14m along path							
+416017.2	92800.2	0.21					15m along path							
+416017.7	92799.4	0.20					16m along path							
+416018.2	92798.4	0.20					17m along path							
+416018.7	92797.5	0.21					18m along path							
+416019.1	92796.8	0.23					19m along path							
+416019.6	92795.9	0.24					20m along path							
+416020.1	92795.0	0.24					21m along path							
+416020.6	92793.9	0.25					22m along path							
+416021.1	92793.1	0.25					23m along path							
+416021.7	92792.1	0.25					24m along path							
+416022.0	92791.2	0.28					25m along path							
+416022.6	92790.3	0.30					26m along path							
+416023.1	92789.4	0.31					27m along path							
+416023.5	92788.6	0.33					28m along path							
+416024.0	92787.8	0.35					29m along path							
+416024.5	92786.8	0.36					30m along path							
+416025.0	92785.8	0.39					31m along path							
+416025.5	92785.0	0.41					32m along path							
+416025.9	92784.2	0.43					33m along path							
+416026.3	92783.4	0.42					34m along path							
+416026.8	92782.5	0.44					35m along path							
+416027.3	92781.6	0.46					36m along path							
+416027.9	92780.6	0.48					37m along path							
+416028.3	92779.8	0.46					38m along path							
+416015.7	92805.2	0.15					1mE at 10m along path							
+416016.6	92805.7	0.18					2mE at 10m along path							
+416017.4	92806.1	0.17					3mE at 10m along path							
+416018.4	92806.6	0.16					4mE at 10m along path							
+416019.2	92807.1	0.17					5mE at 10m along path							
+416020.1	92807.6	0.14					6mE at 10m along path							
+416021.0	92808.0	0.16					7mE at 10m along path							
+416021.8	92808.5	0.13					8mE at 10m along path							
+416022.8	92809.1	0.15					9mE at 10m along path							
+416023.7	92809.5	0.13					10mE at 10m along path							
+416024.6	92810.1	0.17					11mE at 10m along path							
+416025.4	92810.5	0.09					12mE at 10m along path							
+416026.3	92811.0	0.06					13mE at 10m along path							
+416027.2	92811.5	0.07					14mE at 10m along path							
+416028.0	92811.9	0.07					15mE at 10m along path							
+416028.9	92812.5	0.06					16mE at 10m along path							
+416029.7	92812.9	0.06					17mE at 10m along path							
+416030.5	92813.3	0.06					18mE at 10m along path							
+416031.4	92813.8	0.06					19mE at 10m along path							
+416032.2	92814.3	0.08					20mE at 10m along path							
+416033.1	92814.7	0.10					20.8mE at 10m along path							
+416015.2	92806.0	0.14					1mE at 9m along path							
+416016.1	92806.5	0.16					2mE at 9m along path							
+416017.0	92807.0	0.15					3mE at 9m along path							
+416017.9	92807.4	0.16					4mE at 9m along path							
+416018.7	92808.0	0.13					5mE at 9m along path							
+416019.6	92808.4	0.15					6mE at 9m along path							
+416020.5	92808.9	0.13					7mE at 9m along path							
+416021.3	92809.4	0.11					8mE at 9m along path							
+416022.3	92809.9	0.10					9mE at 9m along path							
+416023.2	92810.4	0.11					10mE at 9m along path							
+416024.1	92810.9	0.08					11mE at 9m along path							
+416025.0	92811.4	0.12					12mE at 9m along path							
+416025.8	92811.8	0.13					13mE at 9m along path							
+416026.7	92812.3	0.13					14mE at 9m along path							
+416027.5	92812.7	0.06					15mE at 9m along path							
+416028.5	92813.3	0.08					16mE at 9m along path							
+416029.3	92813.7	0.06					17mE at 9m along path							
+416030.1	92814.2	0.04					18mE at 9m along path							
+416030.9	92814.6	0.01					19mE at 9m along path							
+416031.7	92815.1	0.06					20mE at 9m along path							
+416032.7	92815.6	0.14					21mE at 9m along path							
+416033.3	92815.9	0.04					21.7mE at 9m along path							
+416014.7	92807.1	0.11					1mE at 8m along path							
+416015.5	92807.5	0.14					2mE at 8m along path							
+416016.3	92808.0	0.14					3mE at 8m along path							
+416017.3	92808.5	0.14					4mE at 8m along path							
+416018.2	92809.0	0.13					5mE at 8m along path							
+416019.1	92809.5	0.14					6mE at 8m along path							
+416019.9	92809.9	0.11					7mE at 8m along path							
+416020.8	92810.4	0.06					8mE at 8m along path							
+416021.8	92810.9	0.06					9mE at 8m along path							
+416022.6	92811.4	0.08					10mE at 8m along path							
+416023.5	92811.9	0.03					11mE at 8m along path							
+416024.4	92812.4	0.03					12mE at 8m along path							
+416025.3	92812.9	0.05					13mE at 8m along path							
+416026.1	92813.3	-0.01					14mE at 8m along path							
+416027.0	92813.8	-0.03					15mE at 8m along path							
+416027.9	92814.3	0.02					16mE at 8m along path							
+416028.7	92814.8	0.03					17mE at 8m along path							
+416029.5	92815.2	0.03					18mE at 8m along path							
+416030.3	92815.6	0.01					19mE at 8m along path							
+416031.2	92816.1	0.04					20mE at 8m along path							
+416032.1	92816.6	0.07					21mE at 8m along path							
+416032.9	92817.1	0.13					22mE at 8m along path							
+416033.7	92817.5	0.01					22.8mE at 8m along path							
+416014.2	92808.0	0.12					1mE at 7m along path							
+416015.0	92808.4	0.13					2mE at 7m along path							
+416015.9	92808.9	0.13					3mE at 7m along path							
+416016.8	92809.4	0.13					4mE at 7m along path							
+416017.7	92809.9	0.12					5mE at 7m along path							
+416018.6	92810.4	0.10					6mE at 7m along path							
+416019.4	92810.8	0.08					7mE at 7m along path							
+416020.3	92811.3	0.07					8mE at 7m along path							
+416021.3	92811.9	0.07					9mE at 7m along path							
+416022.2	92812.3	0.07					10mE at 7m along path							
+416023.1	92812.8	0.07					11mE at 7m along path							
+416023.9	92813.3	0.06					12mE at 7m along path							
+416024.8	92813.8	0.06					13mE at 7m along path							
+416025.7	92814.2	0.03					14mE at 7m along path							
+416026.5	92814.7	-0.06					15mE at 7m along path							
+416027.4	92815.2	-0.03					16mE at 7m along path							
+416028.3	92815.7	0.01					17mE at 7m along path							
+416029.0	92816.1	0.01					18mE at 7m along path							
+416029.8	92816.6	0.02					19mE at 7m along path							
+416030.7	92817.1	0.01					20mE at 7m along path							
+416031.6	92817.5	0.02					21mE at 7m along path							
+416032.4	92818.0	0.08					22mE at 7m along path							
+416033.4	92818.5	-0.11					22.9mE at 7m along path							
+416013.7	92808.8	0.12					1mE at 6m along path							
+416014.5	92809.3	0.15					2mE at 6m along path							
+416015.4	92809.8	0.14					3mE at 6m along path							
+416016.3	92810.3	0.12					4mE at 6m along path							
+416017.2	92810.8	0.09					5mE at 6m along path							
+416018.1	92811.3	0.08					6mE at 6m along path							
+416018.9	92811.7	0.09					7mE at 6m along path							
+416019.8	92812.2	0.11					8mE at 6m along path							
+416020.8	92812.8	0.08					9mE at 6m along path							
+416021.7	92813.2	0.06					10mE at 6m along path							
+416022.5	92813.7	0.06					11mE at 6m along path							
+416023.4	92814.2	0.06					12mE at 6m along path							
+416024.3	92814.7	0.16					13mE at 6m along path							
+416025.1	92815.1	0.14					14mE at 6m along path							
+416026.0	92815.6	0.01					15mE at 6m along path							
+416026.9	92816.1	-0.05					16mE at 6m along path							
+416027.8	92816.6	-0.05					17mE at 6m along path							
+416028.5	92817.0	-0.02					18mE at 6m along path							
+416029.4	92817.4	0.01					19mE at 6m along path							
+416030.2	92817.9	0.00					20mE at 6m along path							
+416031.1	92818.4	-0.02					21mE at 6m along path							
+416032.0	92818.9	-0.03					22mE at 6m along path							
+416032.9	92819.4	-0.11					23mE at 6m along path							
+416013.3	92809.6	0.16					1mE at 5m along path							
+416014.1	92810.1	0.16					2mE at 5m along path							
+416015.0	92810.6	0.11					3mE at 5m along path							
+416015.9	92811.1	0.10					4mE at 5m along path							
+416016.8	92811.6	0.12					5mE at 5m along path							
+416017.7	92812.0	0.12					6mE at 5m along path							
+416018.5	92812.5	0.12					7mE at 5m along path							
+416019.3	92813.0	0.07					8mE at 5m along path							
+416020.4	92813.5	0.07					9mE at 5m along path							
+416021.3	92814.0	0.05					10mE at 5m along path							
+416022.1	92814.5	0.03					11mE at 5m along path							
+416023.0	92815.0	0.02					12mE at 5m along path							
+416023.9	92815.4	0.03					13mE at 5m along path							
+416024.8	92815.9	0.03					14mE at 5m along path							
+416025.6	92816.4	0.00					15mE at 5m along path							
+416026.5	92816.9	-0.03					16mE at 5m along path							
+416027.3	92817.3	-0.06					17mE at 5m along path							
+416028.1	92817.7	-0.07					18mE at 5m along path							
+416028.9	92818.2	-0.04					19mE at 5m along path							
+416029.8	92818.7	-0.03					20mE at 5m along path							
+416030.7	92819.2	-0.03					21mE at 5m along path							
+416031.6	92819.7	-0.05					22mE at 5m along path							
+416032.4	92820.2	-0.06					23mE at 5m along path							
+416033.0	92820.4	-0.25					23.5mE at 5m along path							
+416013.0	92810.7	0.16					1.3mE at 4m along path							
+416013.6	92811.0	0.13					2mE at 4m along path							
+416015.4	92812.0	0.12					4mE at 4m along path							
+416016.3	92812.5	0.10					5mE at 4m along path							
+416017.2	92813.0	0.08					6mE at 4m along path							
+416018.0	92813.4	0.07					7mE at 4m along path							
+416018.9	92813.9	0.05					8mE at 4m along path							
+416019.9	92814.5	0.04					9mE at 4m along path							
+416020.7	92814.9	0.00					10mE at 4m along path							
+416021.6	92815.4	0.00					11mE at 4m along path							
+416022.5	92815.9	-0.01					12mE at 4m along path							
+416023.4	92816.4	-0.02					13mE at 4m along path							
+416024.2	92816.8	-0.03					14mE at 4m along path							
+416025.0	92817.3	-0.05					15mE at 4m along path							
+416026.0	92817.8	-0.04					16mE at 4m along path							
+416026.8	92818.3	-0.03					17mE at 4m along path							
+416027.6	92818.7	-0.10					18mE at 4m along path							
+416028.4	92819.2	-0.09					19mE at 4m along path							
+416029.3	92819.6	-0.04					20mE at 4m along path							
+416030.2	92820.2	-0.05					21mE at 4m along path							
+416031.0	92820.6	-0.06					22mE at 4m along path							
+416032.0	92821.1	-0.05					23mE at 4m along path							
+416032.8	92821.6	-0.15					24mE at 4m along path							
+416012.7	92811.6	0.19					1.5mE at 3m along path							
+416013.6	92812.1	0.15					2.5mE at 3m along path							
+416014.9	92812.9	0.14					4mE at 3m along path							
+416015.8	92813.3	0.09					5mE at 3m along path							
+416016.7	92813.8	0.08					6mE at 3m along path							
+416017.6	92814.3	0.05					7mE at 3m along path							
+416018.4	92814.8	0.05					8mE at 3m along path							
+416019.4	92815.3	0.02					9mE at 3m along path							
+416020.3	92815.8	0.01					10mE at 3m along path							
+416021.1	92816.3	0.01					11mE at 3m along path							
+416022.0	92816.7	-0.01					12mE at 3m along path							
+416022.9	92817.2	-0.04					13mE at 3m along path							
+416023.8	92817.7	-0.04					14mE at 3m along path							
+416024.6	92818.2	-0.05					15mE at 3m along path							
+416025.6	92818.7	-0.06					16mE at 3m along path							
+416026.4	92819.2	-0.07					17mE at 3m along path							
+416027.1	92819.6	-0.06					18mE at 3m along path							
+416028.0	92820.0	-0.11					19mE at 3m along path							
+416028.8	92820.5	-0.07					20mE at 3m along path							
+416029.7	92821.0	-0.06					21mE at 3m along path							
+416030.6	92821.5	-0.05					22mE at 3m along path							
+416031.5	92821.9	-0.05					23mE at 3m along path							
+416032.3	92822.4	-0.05					24mE at 3m along path							
+416032.8	92822.7	-0.18					24.4mE at 3m along path							
+416011.8	92812.3	0.20					1mE at 2m along path							
+416012.7	92812.7	0.23					2mE at 2m along path							
+416013.5	92813.2	0.25					3mE at 2m along path							
+416014.5	92813.7	0.21					4mE at 2m along path							
+416015.3	92814.2	0.17					5mE at 2m along path							
+416016.3	92814.7	0.75					6mE at 2m along path							
+416017.1	92815.1	0.07					7mE at 2m along path							
+416018.0	92815.6	0.05					8mE at 2m along path							
+416019.0	92816.2	0.04					9mE at 2m along path							
+416019.8	92816.7	0.02					10mE at 2m along path							
+416020.7	92817.1	0.02					11mE at 2m along path							
+416021.6	92817.6	0.00					12mE at 2m along path							
+416022.4	92818.1	-0.01					13mE at 2m along path							
+416023.3	92818.6	-0.05					14mE at 2m along path							
+416024.1	92819.0	-0.06					15mE at 2m along path							
+416025.1	92819.5	-0.05					16mE at 2m along path							
+416025.9	92820.0	-0.08					17mE at 2m along path							
+416026.7	92820.4	-0.07					18mE at 2m along path							
+416027.5	92820.9	-0.07					19mE at 2m along path							
+416028.4	92821.3	-0.06					20mE at 2m along path							
+416029.3	92821.8	-0.03					21mE at 2m along path							
+416030.1	92822.3	-0.01					22mE at 2m along path							
+416031.0	92822.8	0.01					23mE at 2m along path							
+416031.9	92823.3	0.06					24mE at 2m along path							
+416032.9	92823.8	-0.04					25mE at 2m along path							
+416014.9	92815.1	0.47					5mE at 1m along path							
+416015.8	92815.6	0.44					6mE at 1m along path							
+416016.6	92816.0	0.42					7mE at 1m along path							
+416017.5	92816.5	0.32					8mE at 1m along path							
+416018.5	92817.1	0.29					9mE at 1m along path							
+416019.3	92817.5	0.33					10mE at 1m along path							
+416020.2	92818.0	0.37					11mE at 1m along path							
+416021.1	92818.5	0.29					12mE at 1m along path							
+416022.0	92818.9	0.31					13mE at 1m along path							
+416022.8	92819.4	0.40					14mE at 1m along path							
+416023.6	92819.9	0.25					15mE at 1m along path							
+416024.6	92820.4	0.34					16mE at 1m along path							
+416025.4	92820.9	0.24					17mE at 1m along path							
+416026.2	92821.3	0.04					18mE at 1m along path							
+416027.0	92821.8	-0.09					19mE at 1m along path							
+416027.9	92822.2	0.28					20mE at 1m along path							
+416028.8	92822.7	0.31					21mE at 1m along path							
+416029.7	92823.2	0.28					22mE at 1m along path							
+416030.5	92823.7	0.29					23mE at 1m along path							
+416031.4	92824.1	0.33					24mE at 1m along path							
+416032.4	92824.7	0.31					25mE at 1m along path							
+416033.4	92825.3	0.31					26mE at 1m along path							
+416034.1	92825.6	0.20					26.6mE at 1m along path							
+416013.9	92816.9	0.25					5mE at neg1m along path							
+416014.7	92817.4	0.24					6mE at neg1m along path							
+416015.6	92817.9	0.29					7mE at neg1m along path							
+416016.5	92818.4	0.16					8mE at neg1m along path							
+416017.5	92818.9	0.12					9mE at neg1m along path							
+416018.3	92819.4	0.10					10mE at neg1m along path							
+416019.2	92819.9	0.11					11mE at neg1m along path							
+416020.1	92820.4	0.07					12mE at neg1m along path							
+416021.0	92820.8	0.07					13mE at neg1m along path							
+416021.8	92821.3	0.10					14mE at neg1m along path							
+416022.6	92821.7	0.14					15mE at neg1m along path							
+416023.6	92822.3	0.04					16mE at neg1m along path							
+416024.4	92822.7	-0.03					17mE at neg1m along path							
+416025.2	92823.2	-0.07					18mE at neg1m along path							
+416026.1	92823.7	-0.15					19mE at neg1m along path							
+416026.9	92824.1	-0.02					20mE at neg1m along path							
+416027.8	92824.6	0.14					21mE at neg1m along path							
+416028.7	92825.1	0.05					22mE at neg1m along path							
+416029.5	92825.5	0.07					23mE at neg1m along path							
+416030.4	92826.0	0.19					24mE at neg1m along path							
+416013.4	92817.8	0.23					5mE at neg2m along path							
+416014.3	92818.2	-0.09					6mE at neg2m along path							
+416016.0	92819.2	-0.87					8mE at neg2m along path							
+416017.0	92819.7	-0.85					9mE at neg2m along path							
+416017.9	92820.2	-0.87					10mE at neg2m along path							
+416018.7	92820.7	-0.89					11mE at neg2m along path							
+416019.6	92821.2	-0.87					12mE at neg2m along path							
+416024.0	92823.5	-0.80					17mE at neg2m along path							
+416024.7	92824.0	-0.97					18mE at neg2m along path							
+416025.6	92824.4	-0.80					19mE at neg2m along path							
+416018.9	92820.4	-0.23					"-1.6,11m"							
+416018.0	92819.9	-0.17					"-1.63,10m"							
+416016.9	92819.9	-0.85					"-2.06,9m"							
+416017.2	92819.4	-0.20					"-1.65,9m"							
+416015.9	92819.3	-0.87					"-2.06,8m"							
+416016.2	92818.8	-0.09					"-1.60,8m"							
+416014.1	92818.6	-0.86					"-2.28,6m"							
+416013.1	92818.3	-0.82					"-2.60,5m"							
+416019.8	92820.8	-0.17					"-1.52,12m"							
+416020.7	92821.3	-0.30					"-1.65,13m"							
+416020.5	92821.5	-0.80					"-1.90,13m"							
+416021.5	92821.8	-0.18					"-1.60,14m"							
+416021.4	92822.0	-0.87					"-1.80,14"							
+416022.4	92822.2	-0.18					"-1.64,15m"							
+416022.2	92822.5	-0.81					"-1.89,15m"							
+416023.3	92822.8	-0.13					"-1.60,16m"							
+416023.2	92823.0	-0.81					"-1.90,16m"							
+416024.2	92823.1	-0.25					-1.64.17m							
+416024.9	92823.6	-0.22					"-1.60,18m"							
+416025.8	92824.1	-0.29					"-1.64,19m"							
+416028.1	92821.9	-0.03					"+1.2,20m"							
+416026.6	92824.6	-0.27					"-1.68,20m"							
+416026.4	92825.0	-0.82					"-2.1,20m"							
+416028.9	92822.5	-0.01					"+1.2,21m"							
+416027.5	92825.0	-0.16					"-1.48,21m"							
+416027.4	92825.2	-0.88					"-1.84,21m"							
+416028.5	92825.5	-0.25					"-1.54,22m"							
+416028.3	92825.8	-0.89					"-1.80,22m"							
+416029.3	92826.0	-0.19					"-1.50,23m"							
+416029.2	92826.2	-0.95					"-1.76,23m"							
+416030.2	92826.5	-0.17					-1.60.24m							
+416030.0	92826.7	-1.01					"-1.80,24m"							
