@@ -1,0 +1,156 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$EXTMIN
+ 10
+  415994.170000
+ 20
+   92775.500000
+  9
+$EXTMAX
+ 10
+  416045.300000
+ 20
+   92817.780000
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70
+     1
+  0
+LAYER
+  2
+waterlevel
+ 70
+     0
+ 62
+     1
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+waterlevel
+  66
+1
+  0
+VERTEX
+  8
+waterlevel
+ 10
+415994.171079
+ 20
+92804.754391
+ 30
+0
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416000.693407
+ 20
+92795.251068
+ 30
+0
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416008.851921
+ 20
+92787.742546
+ 30
+0
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416015.710451
+ 20
+92779.965062
+ 30
+0
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416018.669033
+ 20
+92775.504775
+ 30
+0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+waterlevel
+  66
+1
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416034.201587
+ 20
+92817.776634
+ 30
+0
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416035.255022
+ 20
+92805.494036
+ 30
+0
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416039.491173
+ 20
+92797.582071
+ 30
+0
+  0
+VERTEX
+  8
+waterlevel
+ 10
+416045.296269
+ 20
+92788.930461
+ 30
+0
+  0
+SEQEND
+  0
+ENDSEC
+  0
+EOF
