@@ -57,15 +57,18 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Density_of_Pottery_Finds20160909100651130" name="Density of Pottery Finds">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Contours20161017170249160" name="Contours">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pottery_Distribution20160801103409996" name="Pottery Distribution">
       <customproperties>
         <property key="showFeatureCount" value="0"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="boundaries20160704092335883" name="boundaries">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ground_Level20161017095925696" name="Ground Level">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ground_Level20161015200308837" name="Ground Level">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="boundaries20160704092335883" name="boundaries">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Levels20161003093143022" name="Levels">
@@ -91,10 +94,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>415945.1600545288529247</xmin>
-      <ymin>92808.71548365645867307</ymin>
-      <xmax>416034.88169592036865652</xmax>
-      <ymax>92858.70113320679229219</ymax>
+      <xmin>415948.4744818847393617</xmin>
+      <ymin>92788.13725330180022866</ymin>
+      <xmax>416038.19612327625509351</xmax>
+      <ymax>92838.12290285213384777</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -161,7 +164,8 @@
       <item>Data_layer20161007113312800</item>
       <item>BaselinesOriginal20161015113944567</item>
       <item>Baselines0120161015144757872</item>
-      <item>Ground_Level20161015200308837</item>
+      <item>Ground_Level20161017095925696</item>
+      <item>Contours20161017170249160</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -252,19 +256,24 @@
         <legendlayerfile isInOverview="0" layerid="Density_of_Pottery_Finds20160909100651130" visible="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Contours" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Contours20161017170249160" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pottery Distribution" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Pottery_Distribution20160801103409996" visible="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ground Level" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Ground_Level20161017095925696" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="boundaries" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="boundaries20160704092335883" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ground Level" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Ground_Level20161015200308837" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Levels" showFeatureCount="0">
@@ -501,7 +510,7 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <projectlayers layercount="26">
+  <projectlayers layercount="27">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>BaseMap_modified20160705204937455</id>
       <datasource>./BaseMap_modified.tif</datasource>
@@ -1221,6 +1230,104 @@
         </edittype>
       </edittypes>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>Contours20161017170249160</id>
+      <datasource>./Contours/Contours</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Contours</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="146,95,146,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Data_layer20161007113312800</id>
       <datasource>./GPR Grids.shp</datasource>
@@ -1581,8 +1688,8 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Ground_Level20161015200308837</id>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Ground_Level20161017095925696</id>
       <datasource>./Ground Level.asc</datasource>
       <title></title>
       <abstract></abstract>
@@ -1613,15 +1720,15 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0.503838" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-0.880107" type="singlebandpseudocolor">
+        <rasterrenderer opacity="0.682353" alphaBand="0" classificationMax="0.544681" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-0.869747" type="singlebandpseudocolor">
           <rasterTransparency/>
           <rastershader>
             <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="-0.880107" label="-0.880107" color="#2b83ba"/>
-              <item alpha="255" value="-0.534121" label="-0.534121" color="#abdda4"/>
-              <item alpha="255" value="-0.188134" label="-0.188134" color="#ffffbf"/>
-              <item alpha="255" value="0.157852" label="0.157852" color="#fdae61"/>
-              <item alpha="255" value="0.503838" label="0.503838" color="#d7191c"/>
+              <item alpha="255" value="-0.869747" label="-0.869747" color="#2b83ba"/>
+              <item alpha="255" value="-0.51614" label="-0.516140" color="#abdda4"/>
+              <item alpha="255" value="-0.162533" label="-0.162533" color="#ffffbf"/>
+              <item alpha="255" value="0.191074" label="0.191074" color="#fdae61"/>
+              <item alpha="255" value="0.544681" label="0.544681" color="#d7191c"/>
             </colorrampshader>
           </rastershader>
         </rasterrenderer>
