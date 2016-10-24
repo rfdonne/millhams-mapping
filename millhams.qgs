@@ -3,7 +3,7 @@
   <title>Millhams Mapping</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Millhams_GPR20161020234009917" name="Millhams_GPR">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Millhams_GPR20161020234009917" name="Millhams_GPR">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hillshade20161019194054468" name="hillshade">
@@ -21,7 +21,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="BaselinesOriginal20161015113944567" name="Baselines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Data_layer20161007113312800" name="GPR Grids">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Data_layer20161007113312800" name="GPR Grids">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ResistivityPlot2_3_modified20161005172424363" name="ResistivityPlot2_3_modified">
@@ -72,7 +72,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Contours20161017170249160" name="Contours">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pottery_Distribution20160801103409996" name="Pottery Distribution">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pottery_Distribution20160801103409996" name="Pottery Distribution">
       <customproperties>
         <property key="showFeatureCount" value="0"/>
       </customproperties>
@@ -112,10 +112,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>416003.28209648840129375</xmin>
-      <ymin>92814.27163447206839919</ymin>
-      <xmax>416015.38334648869931698</xmax>
-      <ymax>92829.96913447184488177</ymax>
+      <xmin>416001.2260168922948651</xmin>
+      <ymin>92799.54354021890321746</ymin>
+      <xmax>416025.42851689289091155</xmax>
+      <ymax>92830.93854021845618263</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -134,8 +134,10 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="Level_Survey_Grid__S_Garden_20161010193627686"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="Level_Survey_Grid__S_Garden_20161015143458395"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfercentroid20161024102612341"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pottery_Density20160801105703166"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="BaseMap_modified20160705204937455"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfercentroid20161024103048568"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pottery_Distribution320160731201908161"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Surfaces20160702124029406"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Density_of_Pottery_Finds20160819000646744"/>
@@ -148,8 +150,12 @@
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pottery_Distribution220160731201229274"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="pottery420160730200219968"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfercentroid20161010232010753"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfer20161023201915150"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Data_layer20160710010505729"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfer20161024102222943"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfercentroid20161023203049909"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfer20161012102931613"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfercentroid20161023203552996"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pottery_Density20160806204602930"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfer20161010231553531"/>
     </layer_coordinate_transform_info>
@@ -193,9 +199,9 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Millhams_GPR" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Millhams_GPR" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Millhams_GPR20161020234009917" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Millhams_GPR20161020234009917" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hillshade" showFeatureCount="0">
@@ -223,9 +229,9 @@
         <legendlayerfile isInOverview="0" layerid="BaselinesOriginal20161015113944567" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="GPR Grids" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="GPR Grids" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Data_layer20161007113312800" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Data_layer20161007113312800" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ResistivityPlot2_3_modified" showFeatureCount="0">
@@ -305,9 +311,9 @@
         <legendlayerfile isInOverview="0" layerid="Contours20161017170249160" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pottery Distribution" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pottery Distribution" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Pottery_Distribution20160801103409996" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Pottery_Distribution20160801103409996" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Levels_expr" showFeatureCount="0">
@@ -3551,10 +3557,10 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions>
-        <actionsetting action="from os import startfile&#xa;from os.path import abspath, dirname, join&#xa;proj = QgsProject.instance()&#xa;urfile = str(proj.fileName())&#xa;path = join(abspath(dirname(urfile)), &quot;[%  &quot;Section_W&quot; %]&quot;)&#xa;startfile(path)" icon="" capture="0" type="1" name="Show W facing section"/>
-        <actionsetting action="from os import startfile&#xa;from os.path import abspath, dirname, join&#xa;proj = QgsProject.instance()&#xa;urfile = str(proj.fileName())&#xa;path = join(abspath(dirname(urfile)), &quot;[%  &quot;Section_E&quot; %]&quot;)&#xa;startfile(path)" icon="" capture="0" type="1" name="Show E facing section"/>
-        <actionsetting action="from os import startfile&#xa;from os.path import abspath, dirname, join&#xa;proj = QgsProject.instance()&#xa;urfile = str(proj.fileName())&#xa;path = join(abspath(dirname(urfile)), &quot;[%  &quot;Section_N&quot; %]&quot;)&#xa;startfile(path)" icon="" capture="0" type="1" name="Show N facing section"/>
-        <actionsetting action="from os import startfile&#xa;from os.path import abspath, dirname, join&#xa;proj = QgsProject.instance()&#xa;urfile = str(proj.fileName())&#xa;path = join(abspath(dirname(urfile)), &quot;[%  &quot;Section_S&quot; %]&quot;)&#xa;startfile(path)" icon="" capture="0" type="1" name="Show S facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_W&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show W facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_E&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show E facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_N&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show N facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_S&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show S facing section"/>
       </attributeactions>
       <edittypes>
         <edittype widgetv2type="TextEdit" name="myid">
@@ -3580,7 +3586,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Pottery_Distribution20160801103409996</id>
       <datasource>./Pottery Distribution.shp</datasource>
       <title></title>
@@ -3628,14 +3634,7 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="totalwt_gm" symbollevels="0" type="graduatedSymbol">
-        <ranges>
-          <range render="true" symbol="0" lower="0.000000" upper="259.700000" label=" 0 - 260 "/>
-          <range render="true" symbol="1" lower="259.700000" upper="519.400000" label=" 260 - 519 "/>
-          <range render="true" symbol="2" lower="519.400000" upper="779.100000" label=" 519 - 779 "/>
-          <range render="true" symbol="3" lower="779.100000" upper="1038.800000" label=" 779 - 1039 "/>
-          <range render="true" symbol="4" lower="1038.800000" upper="1298.500000" label=" 1039 - 1298 "/>
-        </ranges>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
           <symbol alpha="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
@@ -3658,125 +3657,9 @@
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
-          <symbol alpha="1" type="marker" name="1">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="199,220,239,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" type="marker" name="2">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="114,178,215,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" type="marker" name="3">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="40,120,184,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" type="marker" name="4">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="8,48,107,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
         </symbols>
-        <source-symbol>
-          <symbol alpha="1" type="marker" name="0">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="12,195,140,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-        </source-symbol>
-        <colorramp type="gradient" name="[source]">
-          <prop k="color1" v="247,251,255,255"/>
-          <prop k="color2" v="8,48,107,255"/>
-          <prop k="discrete" v="0"/>
-          <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
-        </colorramp>
-        <invertedcolorramp value="0"/>
-        <mode name="equal"/>
         <rotation/>
         <sizescale scalemethod="area"/>
-        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="0"/>
       </renderer-v2>
       <customproperties>
         <property key="labeling" value="pal"/>
