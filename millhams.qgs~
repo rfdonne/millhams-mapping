@@ -3,6 +3,9 @@
   <title>Millhams Mapping</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pottery_Summary20161024225230765" name="Pottery_Summary">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Millhams_GPR20161020234009917" name="Millhams_GPR">
       <customproperties/>
     </layer-tree-layer>
@@ -72,11 +75,6 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Contours20161017170249160" name="Contours">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pottery_Distribution20160801103409996" name="Pottery Distribution">
-      <customproperties>
-        <property key="showFeatureCount" value="0"/>
-      </customproperties>
-    </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Levels_expr20161017180539364" name="Levels_expr">
       <customproperties/>
     </layer-tree-layer>
@@ -90,6 +88,9 @@
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Levels20161003093143022" name="Levels">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pottery_Distribution20161024125055625" name="Pottery Distribution">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pits20160701091319183" name="Pits">
@@ -112,10 +113,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>416001.2260168922948651</xmin>
-      <ymin>92799.54354021890321746</ymin>
-      <xmax>416025.42851689289091155</xmax>
-      <ymax>92830.93854021845618263</ymax>
+      <xmin>416026.83649980428162962</xmin>
+      <ymin>92794.99523041215434205</ymin>
+      <xmax>416051.03899980487767607</xmax>
+      <ymax>92826.39023041170730721</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -136,8 +137,8 @@
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="Level_Survey_Grid__S_Garden_20161015143458395"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfercentroid20161024102612341"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pottery_Density20160801105703166"/>
-      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="BaseMap_modified20160705204937455"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="1314" layerid="transfercentroid20161024103048568"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="BaseMap_modified20160705204937455"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pottery_Distribution320160731201908161"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Surfaces20160702124029406"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Density_of_Pottery_Finds20160819000646744"/>
@@ -164,7 +165,6 @@
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>Density_of_Pottery_Finds20160909100651130</item>
-      <item>Pottery_Distribution20160801103409996</item>
       <item>boundaries20160704092335883</item>
       <item>Pits20160701091319183</item>
       <item>Structures20160701113711919</item>
@@ -196,9 +196,16 @@
       <item>hillshade20161019194054468</item>
       <item>contours_grass20161019200452165</item>
       <item>Millhams_GPR20161020234009917</item>
+      <item>Pottery_Distribution20161024125055625</item>
+      <item>Pottery_Summary20161024225230765</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pottery_Summary" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Pottery_Summary20161024225230765" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Millhams_GPR" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Millhams_GPR20161020234009917" visible="0"/>
@@ -311,11 +318,6 @@
         <legendlayerfile isInOverview="0" layerid="Contours20161017170249160" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pottery Distribution" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Pottery_Distribution20160801103409996" visible="1"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Levels_expr" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Levels_expr20161017180539364" visible="0"/>
@@ -339,6 +341,11 @@
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Levels" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Levels20161003093143022" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pottery Distribution" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Pottery_Distribution20161024125055625" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pits" showFeatureCount="0">
@@ -570,7 +577,7 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <projectlayers layercount="33">
+  <projectlayers layercount="34">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>BaseMap_modified20160705204937455</id>
       <datasource>./BaseMap_modified.tif</datasource>
@@ -3325,14 +3332,7 @@
       </srs>
       <provider encoding="System">ogr</provider>
       <previewExpression>COALESCE( "area", '&lt;NULL>' )</previewExpression>
-      <vectorjoins>
-        <join hasCustomPrefix="1" joinFieldName="label" customPrefix="Pottery Distribution_" targetFieldName="label" memoryCache="1" joinLayerId="Pottery_Distribution20160801103409996">
-          <joinFieldsSubset>
-            <field name="Easting"/>
-            <field name="Northing"/>
-          </joinFieldsSubset>
-        </join>
-      </vectorjoins>
+      <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
@@ -3586,8 +3586,8 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Pottery_Distribution20160801103409996</id>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>Pottery_Distribution20161024125055625</id>
       <datasource>./Pottery Distribution.shp</datasource>
       <title></title>
       <abstract></abstract>
@@ -3609,7 +3609,14 @@
       </srs>
       <provider encoding="System">ogr</provider>
       <previewExpression>COALESCE( "myid", '&lt;NULL>' )</previewExpression>
-      <vectorjoins/>
+      <vectorjoins>
+        <join hasCustomPrefix="1" joinFieldName="Pit no." customPrefix="Pottery_Summary_" targetFieldName="label" memoryCache="1" joinLayerId="Pottery_Summary20161024225230765">
+          <joinFieldsSubset>
+            <field name="Total Sherds"/>
+            <field name="Total Weight"/>
+          </joinFieldsSubset>
+        </join>
+      </vectorjoins>
       <expressionfields/>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
@@ -3621,17 +3628,23 @@
         <edittype widgetv2type="TextEdit" name="label">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="W facing">
+        <edittype widgetv2type="TextEdit" name="area">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="E facing">
+        <edittype widgetv2type="TextEdit" name="total_num">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="S facing">
+        <edittype widgetv2type="TextEdit" name="total_wt">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="N facing">
+        <edittype widgetv2type="TextEdit" name="density">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Pottery_Summary_Total Sherds">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Pottery_Summary_Total Weight">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 symbollevels="0" type="singleSymbol">
@@ -3639,7 +3652,7 @@
           <symbol alpha="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="247,251,255,255"/>
+              <prop k="color" v="182,109,194,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -3844,16 +3857,82 @@
         <edittype widgetv2type="TextEdit" name="label">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="W facing">
+        <edittype widgetv2type="TextEdit" name="area">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="E facing">
+        <edittype widgetv2type="TextEdit" name="total_num">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="S facing">
+        <edittype widgetv2type="TextEdit" name="total_wt">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="N facing">
+        <edittype widgetv2type="TextEdit" name="density">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Pottery_Summary_Total Sherds">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Pottery_Summary_Total Weight">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>Pottery_Summary20161024225230765</id>
+      <datasource>./Pottery Data/Pottery_Summary.csv</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Pottery_Summary</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE("Pit no.", '&lt;NULL>')||', '||COALESCE("Total Sherds", '&lt;NULL>')||', '||COALESCE("Total Weight", '&lt;NULL>')</previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="Pit no.">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Total Sherds">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Total Weight">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="Pit no.">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Total Sherds">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Total Weight">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -5497,7 +5576,7 @@
         <value>Levels_expr20161017180539364</value>
         <value>Levels_temp20161018175604969</value>
         <value>Pits20160701091319183</value>
-        <value>Pottery_Distribution20160801103409996</value>
+        <value>Pottery_Distribution20161024125055625</value>
         <value>Structures20160701113711919</value>
         <value>Surfaces20160702124029406</value>
         <value>boundaries20160704092335883</value>
@@ -5513,7 +5592,7 @@
         <value>disabled</value>
         <value>disabled</value>
         <value>enabled</value>
-        <value>enabled</value>
+        <value>disabled</value>
         <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
@@ -5547,7 +5626,7 @@
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
-        <value>to_vertex</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
