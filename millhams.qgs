@@ -116,10 +116,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>415980.40134192915866151</xmin>
-      <ymin>92772.39362937239638995</ymin>
-      <xmax>416028.80634193035075441</xmax>
-      <ymax>92835.18362937150232028</ymax>
+      <xmin>415990.54623559594620019</xmin>
+      <ymin>92801.30455247744976077</ymin>
+      <xmax>416014.74873559654224664</xmax>
+      <ymax>92832.69955247700272594</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -3318,7 +3318,7 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Pits20160701091319183</id>
       <datasource>./Pits.shp</datasource>
       <title></title>
@@ -3417,7 +3417,7 @@
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
         <property key="labeling/enabled" value="true"/>
-        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fontBold" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -3435,7 +3435,7 @@
         <property key="labeling/fontWeight" value="50"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/isExpression" value="false"/>
         <property key="labeling/labelOffsetInMapUnits" value="true"/>
         <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
@@ -3566,10 +3566,10 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions>
-        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_W&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show W facing section"/>
-        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_E&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show E facing section"/>
-        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_N&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show N facing section"/>
-        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_S&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    from os.path import abspath, dirname, join&#xa;    proj = QgsProject.instance()&#xa;    urfile = str(proj.fileName())&#xa;    startfile(path)&#xa;else:&#xa;    # OS X&#xa;    None&#xa;" icon="" capture="0" type="1" name="Show S facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_W&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    startfile(path)&#xa;else:&#xa;    # Can put OSX specific code here&#xa;    None" icon="" capture="0" type="1" name="Show W facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_E&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    startfile(path)&#xa;else:&#xa;    # Can put OSX specific code here&#xa;    None" icon="" capture="0" type="1" name="Show E facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_N&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    startfile(path)&#xa;else:&#xa;    # Can put OSX specific code here&#xa;    None" icon="" capture="0" type="1" name="Show N facing section"/>
+        <actionsetting action="# Import the required libraries&#xa;import sys&#xa;from os.path import abspath, dirname, join&#xa;&#xa;# Get an instance of the project object&#xa;proj = QgsProject.instance()&#xa;&#xa;# Get the name of the project file&#xa;urfile = str(proj.fileName())&#xa;&#xa;# Build the absolute path to the file to be displayed&#xa;path = join(abspath(dirname(urfile)), &quot;[% &quot;Section_S&quot; %]&quot;)&#xa;&#xa;# Determine the OS we're running on and open the file to be displayed&#xa;if sys.platform == &quot;linux&quot; or sys.platform == &quot;linux2&quot;:&#xa;    import subprocess&#xa;     # Convert the backslashes to slashes&#xa;    path = path.replace('\\', '/')&#xa;    opener = &quot;xdg-open&quot;&#xa;    subprocess.call([opener, path])&#xa;elif sys.platform == &quot;win32&quot;:&#xa;    from os import startfile&#xa;    startfile(path)&#xa;else:&#xa;    # Can put OSX specific code here&#xa;    None" icon="" capture="0" type="1" name="Show S facing section"/>
       </attributeactions>
       <edittypes>
         <edittype widgetv2type="TextEdit" name="myid">
